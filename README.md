@@ -11,11 +11,12 @@ This project is designed to provide a comprehensive tracking solution powered by
 
 1. **Create a Conda Environment**: Open your terminal or Anaconda Prompt and navigate to the directory containing your project. Then, create a new Conda environment with the following command:
 
-    ```bash conda create --name gemini_ats_env python=3.8```
+    ```bash
+    conda create --name gemini_ats_env python=3.8```
 
     Replace `python=3.8` with the latest Python version available at your time of setup.
 
-2. **Activate the Environment**:
+3. **Activate the Environment**:
 
    On Windows:
 
@@ -26,7 +27,7 @@ This project is designed to provide a comprehensive tracking solution powered by
    ```bash source activate gemini_ats_env```
 
 
-3. **Install Dependencies**: Navigate to your project directory within the activated Conda environment and install the necessary Python packages listed in the `requirements.txt` file:
+4. **Install Dependencies**: Navigate to your project directory within the activated Conda environment and install the necessary Python packages listed in the `requirements.txt` file:
 
   ```bash pip install -r requirements.txt```
 
