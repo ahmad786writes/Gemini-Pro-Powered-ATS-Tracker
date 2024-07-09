@@ -1,5 +1,14 @@
-poppler
-streamlit
-google-generativeai
-python-dotenv
-pdf2image
+name: ats-tracker
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - poppler
+  - streamlit
+  - google-generativeai
+  - python-dotenv
+  - pdf2image
+  - pip
+  - pip:
+    - google-generativeai
+    - python-dotenv
