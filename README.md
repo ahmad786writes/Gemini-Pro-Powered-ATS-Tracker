@@ -36,14 +36,14 @@ This project is designed to provide a comprehensive tracking solution powered by
 
   ```bash
   pip install -r requirements.txt
-```
+  ```
 
 
 4. **Install Poppler**: Poppler is used for PDF rendering. Install it via Conda:
 
   ```bash
   conda install -c conda-forge poppler
-```
+  ```
 
 
 5. **Obtain API Key**: To use Google AI services, you need an API key. Visit [Google Cloud Console](https://console.cloud.google.com/), create a new project, enable the necessary APIs, and obtain your API key.
@@ -61,7 +61,7 @@ This project is designed to provide a comprehensive tracking solution powered by
 
   ```bash
   streamlit run app.py
-```
+  ```
 
 
 This will start the Streamlit server and open the application in your default web browser.
